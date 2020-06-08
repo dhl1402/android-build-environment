@@ -32,6 +32,7 @@ RUN apk add --update \
     ruby \
     ruby-irb \
     ruby-dev \
+    ruby-webrick \
     yarn \
     ruby-bundler \
     && rm -rf /var/cache/apk/*
